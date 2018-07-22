@@ -27,3 +27,4 @@
  */
  console.table(results)
 ```
+![results via console.table](https://raw.githubusercontent.com/andersontr15/left_join/master/path/to/img.png)
