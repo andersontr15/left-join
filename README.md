@@ -11,7 +11,7 @@
     { customer_id: 10, order_name: 'Pasta Marinara', id: 2}
   ];
   const result = left_join(customers, orders, 'customer_id');
-  [
+  /* [
     {
       customer_id: 1,
       id: 1,
@@ -24,4 +24,5 @@
      order_name: 'Pasta Marinara' 
     }
   ]
+ */ 
 ```
