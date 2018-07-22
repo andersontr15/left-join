@@ -27,5 +27,4 @@
  */
  console.table(results)
 ```
-![results via console.table](https://raw.githubusercontent.com/andersontr15/left_join/blob/master/Screen%20Shot%202018-07-22%20at%2011.51.02%20AM.png)
-
+![results via console.table](/Screen%20Shot%202018-07-22%20at%2011.51.02%20AM.png?raw=true)
