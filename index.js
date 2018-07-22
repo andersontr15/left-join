@@ -6,7 +6,7 @@
 const left_join = (table1, table2, key) => {
   return table1.map(table1Row => {
     const matchInTableTwo = table2.find(
-      table2Row => table2Row[key] === table1Row[key]
+      table2Row => table2Row.id === table1Row[key]
     );
     if (matchInTableTwo) {
       return {
