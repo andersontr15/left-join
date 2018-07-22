@@ -10,7 +10,7 @@
     { customer_id: 1, order_name: 'Pepperoni Pizza', id: 1 }, 
     { customer_id: 10, order_name: 'Pasta Marinara', id: 2}
   ];
-  const result = left_join(orders, customers, 'customer_id');
+  const results = left_join(orders, customers, 'customer_id');
   /* [
     {
       customer_id: 1,
@@ -24,5 +24,6 @@
      order_name: 'Pasta Marinara' 
     }
   ]
- */ 
+ */
+ console.table(results)
 ```
