@@ -19,4 +19,4 @@ const left_join = (table1 = [], table2 = [], key = '') => {
   });
 };
 
-export default left_join;
+module.exports = left_join;
