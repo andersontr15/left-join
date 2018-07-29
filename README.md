@@ -1,4 +1,4 @@
-## Simple Left Join in JavaScript
+## Left Join in JavaScript
 
 ## Usage
 ```javascript
